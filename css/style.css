@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #333;
+	font-family: cursive;
+	font-weight: bolder;
+}
+
+#home-section {
+	/* background: url(../img/mountains.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 625px;
+	transition: all .4s ease-in-out;
+}
+
+#home-section .dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 625px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#home-section .home-inner {
+	padding-top: 30px;
+}
+
+#home-section .card-form {
+	opacity: 0.8;
+	height: 400px;
+}
+
+
+/* @media(max-width: 991px){
+	h2 {
+		font-size: 1.3rem !important;
+	}
+	.date {
+
+	}
+}
+
+@media(max-width: 767px){
+	h2 {
+		font-size: 0.9rem !important;
+	}
+}
+
+@media(max-width: 536px){
+	h2 {
+		font-size: 0.8rem !important;
+	}
+} */
